@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agus Jumaidi | Website Pribadi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Efek Partikel -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- Navigasi -->
+  <nav class="navbar">
+    <h1>Agus Jumaidi</h1>
+    <ul class="nav-links">
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#skills">Keahlian</a></li>
+      <li><a href="#projects">Proyek</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+    <div class="theme-toggle" id="themeToggle">🌙</div>
+  </nav>
+
+  <!-- Tentang Saya -->
+  <section id="about" class="about-section fade-in">
+    <div class="about-container">
+      <div class="profile-photo">
+        <img src="agus.jpg" alt="Agus Jumaidi" id="profileImg" />
+      </div>
+      <div class="about-text">
+        <h2>Tentang Saya</h2>
+        <p>Halo! Saya <strong>Agus Jumaidi</strong>, seorang pengembang web pemula yang suka mempelajari hal baru tentang teknologi dan desain.</p>
+        <p>Saya sedang belajar <strong>HTML</strong>, <strong>CSS</strong>, dan <strong>JavaScript</strong> untuk membuat website yang menarik dan responsif.</p>
+        <p>Saya juga tertarik pada pengembangan aplikasi mobile menggunakan <strong>Flutter</strong> serta pembuatan game sederhana dengan <strong>Unity</strong>. 🌱</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Keahlian -->
+  <section id="skills" class="skills-section fade-in">
+    <h2>Keahlian</h2>
+    <div class="skill"><p>HTML</p><div class="progress-bar"><span data-progress="90"></span></div></div>
+    <div class="skill"><p>CSS</p><div class="progress-bar"><span data-progress="85"></span></div></div>
+    <div class="skill"><p>JavaScript</p><div class="progress-bar"><span data-progress="75"></span></div></div>
+    <div class="skill"><p>Flutter</p><div class="progress-bar"><span data-progress="65"></span></div></div>
+    <div class="skill"><p>Unity</p><div class="progress-bar"><span data-progress="60"></span></div></div>
+  </section>
+
+  <!-- Proyek -->
+  <section id="projects" class="projects-section fade-in">
+    <h2>Proyek Saya</h2>
+    <div class="projects-container">
+      <div class="project-card delay-1">
+        <h3>🌐 Website Pribadi</h3>
+        <p>Website portofolio pribadi yang menampilkan profil dan proyek saya.</p>
+      </div>
+      <div class="project-card delay-2">
+        <h3>📱 Aplikasi Flutter</h3>
+        <p>Aplikasi mobile sederhana untuk belajar dasar Flutter.</p>
+      </div>
+      <div class="project-card delay-3">
+        <h3>🎮 Game Unity</h3>
+        <p>Game 3D sederhana yang dibuat menggunakan Unity Engine.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="contact" class="contact-section fade-in">
+    <h2>Kontak</h2>
+    <p>Ingin berkolaborasi atau sekadar menyapa? Kirim pesan ke:</p>
+    <a href="mailto:agus@example.com" class="email-link">agus@example.com</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Agus Jumaidi. Semua hak dilindungi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
